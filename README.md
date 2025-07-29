@@ -47,7 +47,7 @@ Historical price data was downloaded via finance for the twelve ETFs over a ten-
 This project reinforced several key insights into portfolio construction:
 1. _Constraint Effects:_
    - Imposing realistic asset and class caps meaningfully alters the frontier, illustrating the trade-off between unconstrained return maximization and the practical need for diversification and risk limits.
-2._ Diversification Benefits:_
+2. _Diversification Benefits:_
    - Even under aggressive mandates, holding a non-zero position in commodities and fixed income improved downside protection, emphasizing the classic “don’t put all your eggs in one basket” principle.
 3. _Model Assumptions:_
    - The Monte Carlo approach assumes that the returns are multivariate normal and stationary, which may not hold in more volatile markets. Future iterations should incorporate a fat-tail risk measure or regime-switching model.
