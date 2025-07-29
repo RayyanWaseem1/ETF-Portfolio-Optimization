@@ -17,7 +17,7 @@ Historical price data was downloaded via finance for the twelve ETFs over a ten-
       - Annualized Portfolio Return: WTu
       - Annualized Portfolio Volatility: sqrt(wTΣw)
       - Sharpe Ratio:  wTu / sqrt(wTΣw)
-4._ Efficient Frontier Construction:_
+4. _Efficient Frontier Construction:_
     - From the simulated portfolios, identify the weight combination with the maximum Sharpe ratio for each strategy. Aggregate the full set of (Return, Volatility, Sharpe) points into DataFrames for visualization
 5. _Visualization:_
     - Plot the efficient frontier for all three cases (conservative, aggressive, unconstrained) on a single risk-return diagram
