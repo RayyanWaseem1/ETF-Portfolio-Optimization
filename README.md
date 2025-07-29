@@ -37,7 +37,7 @@ Historical price data was downloaded via finance for the twelve ETFs over a ten-
     - In the **unconstrained** case, the optimizer placed more weight in the highest-Sharpe ETFs, resulting in a noticeable tilt towards equity
 <img width="1391" height="789" alt="Screenshot 2025-07-29 at 1 45 13 PM" src="https://github.com/user-attachments/assets/93c29403-8543-4676-be9d-36d5bc690f8d" />
 
-3._ Asset-Class Allocation:_
+3. _Asset-Class Allocation:_
     - The pie charts reveal that as the risk tolerance increases, between conservative and aggressive, the share of equities also climbs between each strategy.
 <img width="598" height="521" alt="Screenshot 2025-07-29 at 1 44 38 PM" src="https://github.com/user-attachments/assets/d255f320-7f9c-4849-a63f-e5b8c6245f0b" />
 <img width="616" height="427" alt="Screenshot 2025-07-29 at 1 44 51 PM" src="https://github.com/user-attachments/assets/e99318fa-2368-4037-b2a2-2b67cd611f9f" />
@@ -53,7 +53,7 @@ This project reinforced several key insights into portfolio construction:
    - The Monte Carlo approach assumes that the returns are multivariate normal and stationary, which may not hold in more volatile markets. Future iterations should incorporate a fat-tail risk measure or regime-switching model.
 4. _Rebalancing and Transaction Costs:_
    - This static, single-period framework omits turnover and cost considerations. Extending the work to include transaction-cost-aware rebalancing schedules could yield more implementable strategies.
-5. _Data History and Survivorship Bias: _
+5. _Data History and Survivorship Bias:_
    - Using a ten-year window provides robustness but may inadvertently benefit surviving ETFs. Incorporating delisted ETFs or a longer history could offer greater insight. 
 
 Overall, this project demonstrates how quantitative techniques rooted in Modern Portfolio Theory can be tailored to practical investment mandates, striking a balance between empirical risk-return optimization and real world constraints. Continuous refinements – through alternative risk metrics, dynamic rebalancing, and stress-testing – will further enhance the reliability and applicability of these optimized ETF portfolios. 
